@@ -1,12 +1,12 @@
 import './App.css';
-import CardBlog from './components/CardBlog';
-import Navbar from './components/Navbar'
+import AppRouter from './router/AppRouter';
+
+
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <CardBlog/>
+      <AppRouter/>
     </div>
   );
 }
